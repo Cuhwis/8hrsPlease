@@ -36,6 +36,7 @@ Python development utilizing cirriculum learned over the past 2 weeks. 8hrsPleas
  - OS
  - DateTime
  - pathlib
+ - ChromeDriver
 
 ## How To Use
  1. **Find Chrome Version Number**
