@@ -31,6 +31,7 @@ class UserAccount:
                 self.createaccountdata()
         except Exception as e:
             print("Something went wrong " + str(e))
+
     def createaccountdata(self):
         # Data structure
         data = {
@@ -52,7 +53,7 @@ class UserAccount:
                 for x in data["user"].keys():
                     valueofkey = data["user"][x]
                     if valueofkey == "":
-                        #no echoing when entering pin
+                        # no echoing when entering pin
                         if x == "pin":
                             # TODO Implement echo off for secure pin entry
                             pin = input(f"Please set value for {x}: ")
@@ -65,7 +66,7 @@ class UserAccount:
                 else:
                     print("Chose to reenter data / Invalid input reentering data anyway")
                     for x in data["user"].keys():
-                        #TODO Find a way to implement it on not just screens
+                        # TODO Find a way to implement it on not just screens
                         data["user"][x] = ""
 
             # Write data to file

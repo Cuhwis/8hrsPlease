@@ -7,8 +7,8 @@ from TimeClockBot import *
 from requests.exceptions import RequestException
 from selenium import webdriver
 
-def autorunbot(botinstance):
-    botinstance.logintoamazon(Chris.useralias, Chris.userpin)
+def autorunbot(botinstance, useraccount):
+    botinstance.logintoamazon(useraccount.useralias, useraccount.userpin)
     botinstance.grabcompanytime()
     botinstance.grabcompanydate()
     botinstance.punchout()
@@ -17,14 +17,15 @@ def autorunbot(botinstance):
     botinstance.clickcontinue()
     botinstance.clickcontinue()
     botinstance.clickyes()
+    # Finishes Clocking in
+    # bot.clickcontinue()
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     Chris = UserAccount()
     Chris.grabaccountdata()
     bot = TimeClockBot()
-    autorunbot(bot)
-    autorunbot()
-    #bot.clickcontinue()
+    autorunbot(bot, Chris)
 
 
