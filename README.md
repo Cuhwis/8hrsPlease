@@ -37,15 +37,9 @@ Ptyhon development utilizing cirriculum learned over the past 2 weeks. 8hrsPleas
  - pathlib
 
 ## How To Use
-**Find Chrome Version Number**
-
+ 1. **Find Chrome Version Number**
 ![WireFrame](https://i.imgur.com/isKnupy.jpg)
-**Download ChromeDriver**
-[Driver download](https://chromedriver.chromium.org/downloads)
 
-**Place .exe in filepath**
-I use the file path "D:\Downloads\chromedriver.exe"
-If you use a different file path change driverpath value in TimeClockBot.py
-
-**Start the program**
-run main.py!
+ 2. **Download ChromeDriver** [Driver download](https://chromedriver.chromium.org/downloads)
+ 3. **Place .exe in filepath** I use the file path "D:\Downloads\chromedriver.exe" If you use a different file path change driverpath value in TimeClockBot.py
+ 4. **Start the program** run main.py!
