@@ -9,7 +9,7 @@
 ## Introduction
 ![MrGates](https://i.pinimg.com/originals/dc/ff/68/dcff6879a71fcfb100a7de1cf18f5803.jpg)
 # 8hrsPlease - Amazon SDE Appenticeship Project
-Ptyhon development utilizing cirriculum learned over the past 2 weeks. 8hrsPlease is an application developed to minimize trouble tickets associated with my account.
+Python development utilizing cirriculum learned over the past 2 weeks. 8hrsPlease is an application developed to minimize trouble tickets associated with my account.
 
 ## Requirements
 
