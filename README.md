@@ -21,9 +21,10 @@ Ptyhon development utilizing cirriculum learned over the past 2 weeks. 8hrsPleas
   
  - System Accessibility 
   1. System shall take input from user and create JSON file with data
+  2. System shall read from accountdata.json and assign data to UserAccount instance
   2. System shall utilize selenium in order populate webdriver
   3. System shall perform functions on webdriver on certain elements of web page
-  
+  4. System shall take attributes from instance of UserAccount.py and pass to functions defined in TimeClockBot.py
  - Software 
   1. System shall be written in Python, using IDE (PyCharm)
 
